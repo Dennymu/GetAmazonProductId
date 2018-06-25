@@ -1,0 +1,47 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+
+<head>
+  <title>Get Amazon Id</title>
+  <style type="text/css">
+    .copy-button {
+      color: #fff;
+      background-color: #8567cb;
+      cursor: pointer;
+      font-size: 20px;
+      text-align: center;
+      padding: 10px 30px;
+      width: 150px;
+      transition: .15s ease-out;
+    }
+    .copy-button:hover {
+      background-color: #A48DD8;
+    }
+    .copy-area {
+      border: none;
+      border-bottom: 1px solid #8567cd;
+      padding-top: 10px;
+      width: 100%;
+      font-size: 16px;
+      text-align: center;
+      outline: none;
+      transition: .1s ease-out;
+    }
+    .copy-area:focus {
+      border-bottom: 1.5px solid #8567cb
+    }
+  </style>
+</head>
+
+<body>
+  <div id="button" class="copy-button">Copy Product Id</div>
+  <input type="text" class="copy-area">
+  <script src="get-amazon-id.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Get Amazon Id",
+  "version": "1.0",
+  "description": "Get the id of a product from Amazon and copy it",
+  "icons": {
+    "16": "fc_icon.png",
+    "48": "fc_icon.png",
+    "128": "fc_icon.png"
+  },
+  "browser_action": {
+    "default_icon": "fc_icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
